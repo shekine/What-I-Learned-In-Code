@@ -1,0 +1,70 @@
+/* This pattern is downloaded from www.subtlepatterns.com 
+If you need more, that's where to get'em. */
+
+/* Image from pixabay.com if anyone wondering */
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Montserrat&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+body, header, section.post, footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    background: url('/code-img.png');
+    background-size: cover;
+    height: 50vh;
+    width: 100vw;
+    text-align: center;
+}
+
+header h1 {
+    color: #fff;
+    font-family: 'Merriweather', serif;
+    font-size: 4rem;
+    margin: 0;
+}
+
+section.post {
+    /* background: url("qbkls.png"); */
+    max-width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+}
+
+section.post h3 {
+    margin: 8vh 0;
+}
+
+section.post p:first-of-type {
+    margin-top: 0;
+}
+
+footer {
+    background: url('qbkls.png');
+    height: 20px;
+    width: 100vw;
+    margin: 0;
+}

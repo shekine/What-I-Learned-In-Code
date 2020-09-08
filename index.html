@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What I Learned in Code</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>What I Learned Today in Code</h1>
+    </header>
+
+    <section class="post">
+        <h3>My Failed Horizontal Webpage</h3>
+        <p>
+            Yesterday, I set out to level up my coding skills. What would I create today?
+            I am basically a professional coder. I mean, I don't have a job, and I have very 
+            few, if any, respectable looking material that I have created, but these are just
+            small blips in the larger scheme of things. I have basically arrived. I decided 
+            it would be a good learning experience to just whip up a quick horizontal scrolling
+            layout. No big deal. (Example here: <a>https://www.igaming.studio/</a>)
+        </p>
+        <p>
+            There will be plenty of time to assign blame later, but if I had to throw something
+            out there off the top of my head, my failure started in completely neglecting to perform
+            any meaningful research beforehand. In hindsight, this pains me. I'm sure every one 
+            of my college professors would be crying. Who jumps straight into the work without proper
+            research?
+        </p>
+        <p>
+            Have I ever made a horizontal layout before? No.
+        </p>
+        <p>
+            Have I ever even seen a horizontal layout? Um...like twice. Max.
+        </p>
+        <p>
+            Pendejo.
+        </p>
+        <p>
+            So I just jumped straight in. This should be pretty similar to making that 
+            slideout navigation panel I did once. So I made a container div. I put three divs
+            inside of it each taking up the full width of the screen. Only slide one was visible
+            while the other two resided offscreen. I threw a quick background image onto each one
+            in the most garish fashion that I could manage. An arrow absolutely positioned on each
+            side of the screen would be placeholders to scroll horizontally until I implemented 
+            that functionality. So basically, I have a giant slideshow I hope. 
+        </p>
+        <p>
+            Next, I pulled up my javascript and added in my slides. I was hoping that with an event
+            listener, I could create a function that used the absolute positioning to push the first
+            slide off screen to be replaced with the second. I just couldn't seem to manage to get it 
+            functioning though. It's true that sometimes Codepen doesn't function the way I hope (I 
+            use Codepen when I have downtime at my job to keep me awake), but everything seemed to be 
+            in proper order. Except, it didn't work. 
+        </p>
+        <p>
+            So I grabbed the width property and set it to zero on click and let the second slide come 
+            to width: 100%. So on and so forth for each element with an if statement. I clicked the 
+            button and slide one slid off to the left just as intended and slide two appeared. However, 
+            though my code appeared the same for each, it would not turn to slide three. I know this is 
+            user error, but I only had like ten lines of code and I swear, for the life of me, I could 
+            not find the error in my code. How was one section working, but not another?
+        </p>
+        <p>
+            Final resort. It looked like a slideshow already anyway. I'll make a carousel! I have made a 
+            carousel before so I actually DID manage to get a functional carousel implemented that 
+            allowed me to slide between things with my arrow buttons. But they wouldn't slide off the 
+            so I made a keyframes animation that used absolute positioning to slide to the right off 
+            screen. Only problem: it wasn't one continuous object scrolling along. So disappointing.
+            I hate leaving projects completely broken, so I just changed the animation to an opacity 
+            change so it is just another giant carousel. I hate it.
+        </p>
+        <p>
+            What did I learn in code today?
+        </p>
+        <p>
+            Well. I sat down googled horizontal webpages and their implementation. I quickly found an 
+            article on completely CSS implementation and some on javascript implementation. Upon reading,
+            I found that horizontal websites are not super easy to implement. The simplest implementation 
+            was actually the CSS one that just rotated the entire container and then rotated the elements
+            within back to the right orientation. However, this leads to some other issues the author 
+            explains. I am not even going to try to explain the whole process, but suffice it to say
+        </p>
+        <p>
+            1. I bit off more than I could chew. This project was outside of my abilities. Not because I 
+            am not capable of learning, but because...
+        </p>
+        <p>
+            2. I failed to do the proper research. One of the biggest things about coding that I learn and 
+            relearn is that I don't have to reinvent the wheel. The beauty of this field is that web 
+            developers have at their fingertips the whole internet. Had I done my research, I could have made
+            a proper plan. I would have likely implemented the simple CSS method just to get my feet wet. It
+            doesn't have to be perfect - it is not going into production for anyone.
+        </p>
+        <p>
+            In conclusion, next time I decide to make something I have never made before, I want to do 
+            better research before I ever open my code editor. I can't get back my hours that I wasted 
+            trying to implement this, but I can hope to avoid failing so hard on future projects. I will
+            attempt to start smaller. I didn't need to make a whole webpage, I should have done a smallscale.
+            I hope I will do better next time.
+        </p>
+        <h3>Until next time. Ciao!</h3>
+    </section>
+
+    <footer></footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
